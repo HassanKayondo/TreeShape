@@ -9,16 +9,16 @@ TreeShape
 │
 └───Data
 │   │___Dataset1
-|   |       structured.csv
-|   |       unstructured.csv
+|   |   |   structured.csv
+|   |   |   unstructured.csv
 |   |
 │   │___Dataset2
-|   |       structured.csv
-|   |       unstructured.csv
+|   |   |   structured.csv
+|   |   |   unstructured.csv
 |   |
 │   │___Dataset3
-|   |       structured.csv
-|   |       unstructured.csv
+|   |   |   structured.csv
+|   |   |   unstructured.csv
 |   |
 │   └───CTR
 │       │   tree1.tree
@@ -52,7 +52,7 @@ Three sets of data were generated using the `simulate_trees.py` script for three
 
 ### Comparing tree statistics between structured and un-structured populations
 
-This is done using the `compare_stats.R` script. The input of this script are csv files created by `simulate_trees.py` script. The comparisons are mainly based on the Kolmogorov–Smirnov test. Boxplots are used to visualise the results using ggplot2 package.
+This is done using the `compare_stats.R` script. The input of this script are csv files created by `simulate_trees.py` script. The comparisons are mainly based on the Kolmogorov–Smirnov test. Boxplots are used to visualise the results.
 
 ### Classification
 
