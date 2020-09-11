@@ -33,13 +33,22 @@ TreeShape
 ```
 
 ### Simulating trees
-Three sets of data were generated using the `simulate_trees.py` script for three different sets of parameters as specified below;
+Three sets of data were generated using the `simulate_trees.py` script for three different pairs of parameter sets as specified below;
 
-* Dataset1: <img src="https://latex.codecogs.com/svg.latex?\lambda_{1}=0.01,\lambda_{2}=0.003,\mu_{1}=0.001,\mu_{2}=0.001,\gamma_{12}=0.001,\gamma_{21}=0.003" title="\lambda_{1}=0.01, \lambda_{2}=0.003,\mu_{1}=0.001,\mu_{2}=0.001,\gamma_{12}=0.001,\gamma_{21}=0.003" />
+* Dataset1: 
+    * Structured: <img src="https://latex.codecogs.com/svg.latex?\lambda_{1}=0.01,\lambda_{2}=0.003,\mu_{1}=0.001,\mu_{2}=0.001,\gamma_{12}=0.001,\gamma_{21}=0.003" title="\lambda_{1}=0.01, \lambda_{2}=0.003,\mu_{1}=0.001,\mu_{2}=0.001,\gamma_{12}=0.001,\gamma_{21}=0.003" />
 
-* Dataset2: <img src="https://latex.codecogs.com/svg.latex?\lambda_{1}=0.01,\lambda_{2}=0.003,\mu_{1}=0.001,\mu_{2}=0.001,\gamma_{12}=0.001,\gamma_{21}=0.003" title="\lambda_{1}=0.01, \lambda_{2}=0.003,\mu_{1}=0.001,\mu_{2}=0.001,\gamma_{12}=0.001,\gamma_{21}=0.003" />
+    * Non-structured: <img src="https://latex.codecogs.com/svg.latex?\lambda_{1}=0.01,\lambda_{2}=0.003,\mu_{1}=0.001,\mu_{2}=0.001,\gamma_{12}=0.001,\gamma_{21}=0.003" title="\lambda_{1}=0.01, \lambda_{2}=0.003,\mu_{1}=0.001,\mu_{2}=0.001,\gamma_{12}=0.001,\gamma_{21}=0.003" />
 
-* Dataset3:<img src="https://latex.codecogs.com/svg.latex?\lambda_{1}=0.01,\lambda_{2}=0.003,\mu_{1}=0.001,\mu_{2}=0.001,\gamma_{12}=0.001,\gamma_{21}=0.003" title="\lambda_{1}=0.01, \lambda_{2}=0.003,\mu_{1}=0.001,\mu_{2}=0.001,\gamma_{12}=0.001,\gamma_{21}=0.003" />
+* Dataset2: 
+    * Structured: <img src="https://latex.codecogs.com/svg.latex?\lambda_{1}=0.01,\lambda_{2}=0.003,\mu_{1}=0.001,\mu_{2}=0.001,\gamma_{12}=0.001,\gamma_{21}=0.003" title="\lambda_{1}=0.01, \lambda_{2}=0.003,\mu_{1}=0.001,\mu_{2}=0.001,\gamma_{12}=0.001,\gamma_{21}=0.003" />
+
+    * Non-structured: <img src="https://latex.codecogs.com/svg.latex?\lambda_{1}=0.01,\lambda_{2}=0.003,\mu_{1}=0.001,\mu_{2}=0.001,\gamma_{12}=0.001,\gamma_{21}=0.003" title="\lambda_{1}=0.01, \lambda_{2}=0.003,\mu_{1}=0.001,\mu_{2}=0.001,\gamma_{12}=0.001,\gamma_{21}=0.003" />
+    
+* Dataset3:
+    * Structured: <img src="https://latex.codecogs.com/svg.latex?\lambda_{1}=0.01,\lambda_{2}=0.003,\mu_{1}=0.001,\mu_{2}=0.001,\gamma_{12}=0.001,\gamma_{21}=0.003" title="\lambda_{1}=0.01, \lambda_{2}=0.003,\mu_{1}=0.001,\mu_{2}=0.001,\gamma_{12}=0.001,\gamma_{21}=0.003" />
+
+    * Non-structured: <img src="https://latex.codecogs.com/svg.latex?\lambda_{1}=0.01,\lambda_{2}=0.003,\mu_{1}=0.001,\mu_{2}=0.001,\gamma_{12}=0.001,\gamma_{21}=0.003" title="\lambda_{1}=0.01, \lambda_{2}=0.003,\mu_{1}=0.001,\mu_{2}=0.001,\gamma_{12}=0.001,\gamma_{21}=0.003" />
 
 ### Classification algorithms
 
