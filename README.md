@@ -9,16 +9,16 @@ TreeShape
 │
 └───Data
 │   │___Dataset1
-|   |   |   structured.csv
-|   |   |   unstructured.csv
+|   |   |   tree_stats_structured_set1_new.csv
+|   |   |   tree_stats_unstructured_set1_new.csv
 |   |
 │   │___Dataset2
-|   |   |   structured.csv
-|   |   |   unstructured.csv
+|   |   |   tree_stats_structured_set2_new.csv
+|   |   |   tree_stats_unstructured_set2_new.csv
 |   |
 │   │___Dataset3
-|   |   |   structured.csv
-|   |   |   unstructured.csv
+|   |   |   tree_stats_structured_set3_new.csv
+|   |   |   tree_stats_unstructured_set3_new.csv
 |   |
 │   └───CTR
 │       │   tree1.tree
