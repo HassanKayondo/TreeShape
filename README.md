@@ -35,20 +35,20 @@ TreeShape
 ### Simulating trees
 Three sets of data were generated using the `simulate_trees.py` script for three different pairs of parameter sets as specified below;
 
-* Dataset1: 
-    * Structured: <img src="https://latex.codecogs.com/svg.latex?\lambda_{1}=0.01,\lambda_{2}=0.003,\mu_{1}=0.001,\mu_{2}=0.001,\gamma_{12}=0.001,\gamma_{21}=0.003" title="\lambda_{1}=0.01, \lambda_{2}=0.003,\mu_{1}=0.001,\mu_{2}=0.001,\gamma_{12}=0.001,\gamma_{21}=0.003" />
+* Dataset1: Number of trees=500
+    * Structured: <img src="https://latex.codecogs.com/svg.latex?n_1=n_2=100,\lambda_{1}=1.5,\lambda_{2}=0.5,\mu_{1}=0.03,\mu_{2}=0.01,\gamma_{12}=0.06,\gamma_{21}=0.02" title="\lambda_{1}=1.5,\lambda_{2}=0.5,\mu_{1}=0.03,\mu_{2}=0.01,\gamma_{12}=0.06,\gamma_{21}=0.02" />
 
-    * Non-structured: <img src="https://latex.codecogs.com/svg.latex?\lambda_{1}=0.01,\lambda_{2}=0.003,\mu_{1}=0.001,\mu_{2}=0.001,\gamma_{12}=0.001,\gamma_{21}=0.003" title="\lambda_{1}=0.01, \lambda_{2}=0.003,\mu_{1}=0.001,\mu_{2}=0.001,\gamma_{12}=0.001,\gamma_{21}=0.003" />
+    * Non-structured: <img src="https://latex.codecogs.com/svg.latex?n_1=n_2=100,\lambda_{1}=1.5,\lambda_{2}=0.5,\mu_{1}=0.03,\mu_{2}=0.01,\gamma_{12}=0.06,\gamma_{21}=0.02" title="\lambda_{1}=1.5,\lambda_{2}=0.5,\mu_{1}=0.03,\mu_{2}=0.01,\gamma_{12}=0.06,\gamma_{21}=0.02" />
 
-* Dataset2: 
-    * Structured: <img src="https://latex.codecogs.com/svg.latex?\lambda_{1}=0.01,\lambda_{2}=0.003,\mu_{1}=0.001,\mu_{2}=0.001,\gamma_{12}=0.001,\gamma_{21}=0.003" title="\lambda_{1}=0.01, \lambda_{2}=0.003,\mu_{1}=0.001,\mu_{2}=0.001,\gamma_{12}=0.001,\gamma_{21}=0.003" />
+* Dataset2: Number of trees=500
+    * Structured: <img src="https://latex.codecogs.com/svg.latex?n_1=n_2=250,\lambda_{1}=1.5,\lambda_{2}=0.5,\mu_{1}=0.03,\mu_{2}=0.01,\gamma_{12}=0.06,\gamma_{21}=0.02" title="\lambda_{1}=1.5,\lambda_{2}=0.5,\mu_{1}=0.03,\mu_{2}=0.01,\gamma_{12}=0.06,\gamma_{21}=0.02" />
 
-    * Non-structured: <img src="https://latex.codecogs.com/svg.latex?\lambda_{1}=0.01,\lambda_{2}=0.003,\mu_{1}=0.001,\mu_{2}=0.001,\gamma_{12}=0.001,\gamma_{21}=0.003" title="\lambda_{1}=0.01, \lambda_{2}=0.003,\mu_{1}=0.001,\mu_{2}=0.001,\gamma_{12}=0.001,\gamma_{21}=0.003" />
+    * Non-structured: <img src="https://latex.codecogs.com/svg.latex?n_1=n_2=250,\lambda_{1}=1.5,\lambda_{2}=0.5,\mu_{1}=0.03,\mu_{2}=0.01,\gamma_{12}=0.06,\gamma_{21}=0.02" title="\lambda_{1}=1.5,\lambda_{2}=0.5,\mu_{1}=0.03,\mu_{2}=0.01,\gamma_{12}=0.06,\gamma_{21}=0.02" />
     
-* Dataset3:
-    * Structured: <img src="https://latex.codecogs.com/svg.latex?\lambda_{1}=0.01,\lambda_{2}=0.003,\mu_{1}=0.001,\mu_{2}=0.001,\gamma_{12}=0.001,\gamma_{21}=0.003" title="\lambda_{1}=0.01, \lambda_{2}=0.003,\mu_{1}=0.001,\mu_{2}=0.001,\gamma_{12}=0.001,\gamma_{21}=0.003" />
+* Dataset3: Number of trees=1000
+    * Structured: <img src="https://latex.codecogs.com/svg.latex?n_1=n_2=100,\lambda_{1}=1.5,\lambda_{2}=0.5,\mu_{1}=0.03,\mu_{2}=0.01,\gamma_{12}=0.06,\gamma_{21}=0.02" title="\lambda_{1}=1.5,\lambda_{2}=0.5,\mu_{1}=0.03,\mu_{2}=0.01,\gamma_{12}=0.06,\gamma_{21}=0.02" />
 
-    * Non-structured: <img src="https://latex.codecogs.com/svg.latex?\lambda_{1}=0.01,\lambda_{2}=0.003,\mu_{1}=0.001,\mu_{2}=0.001,\gamma_{12}=0.001,\gamma_{21}=0.003" title="\lambda_{1}=0.01, \lambda_{2}=0.003,\mu_{1}=0.001,\mu_{2}=0.001,\gamma_{12}=0.001,\gamma_{21}=0.003" />
+    * Non-structured: <img src="https://latex.codecogs.com/svg.latex?n_1=n_2=100\lambda_{1}=1.5,\lambda_{2}=0.5,\mu_{1}=0.03,\mu_{2}=0.01,\gamma_{12}=0.06,\gamma_{21}=0.02" title="\lambda_{1}=1.5,\lambda_{2}=0.5,\mu_{1}=0.03,\mu_{2}=0.01,\gamma_{12}=0.06,\gamma_{21}=0.02" />
 
 ### Comparing tree statistics between structured and un-structured populations
 
