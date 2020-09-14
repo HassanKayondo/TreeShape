@@ -21,9 +21,8 @@ TreeShape
 |   |   |   tree_stats_unstructured_set3_new.csv
 |   |
 │   └───CTR
-│       │   tree1.tree
-│       │   tree2.tree
-|       |   treen.tree
+│       │   CTR_structured*.csv
+│       │   CTR_non_structured*.csv
 │   
 └───Scripts
     │   Classification_crossvalidation.R
