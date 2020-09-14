@@ -29,7 +29,7 @@ TreeShape
     │   Classification_crossvalidation.R
     │   CTR_analysis.R
     │   Komogorov_Smirnov_Test.R
-    │   Tree_simulation.R
+    │   Tree_simulation.py
     │   Tree_statistics_boxplots.R    
     
 ```
