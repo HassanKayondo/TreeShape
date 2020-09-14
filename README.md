@@ -38,17 +38,17 @@ TreeShape
 #### Simulating trees
 Three sets of data were generated using the `Tree_simulation.py` script for three different pairs of parameter sets as specified below;
 
-* Dataset1: Number of trees=500
+* Dataset1: Number of trees for each subpopulation=500
     * Structured: <img src="https://latex.codecogs.com/svg.latex?n_1=n_2=100,\lambda_{1}=1.5,\lambda_{2}=0.5,\mu_{1}=0.03,\mu_{2}=0.01,\gamma_{12}=0.06,\gamma_{21}=0.02" title="n_1=n_2=100,\lambda_{1}=1.5,\lambda_{2}=0.5,\mu_{1}=0.03,\mu_{2}=0.01,\gamma_{12}=0.06,\gamma_{21}=0.02" />
 
     * Non-structured: <img src="https://latex.codecogs.com/svg.latex?n_1=n_2=100,\lambda_{1}=1.5,\lambda_{2}=0.5,\mu_{1}=0.03,\mu_{2}=0.01,\gamma_{12}=0.06,\gamma_{21}=0.02" title="n_1=n_2=100,\lambda_{1}=1.5,\lambda_{2}=0.5,\mu_{1}=0.03,\mu_{2}=0.01,\gamma_{12}=0.06,\gamma_{21}=0.02" />
 
-* Dataset2: Number of trees=500
+* Dataset2: Number of trees for each subpopulation=500
     * Structured: <img src="https://latex.codecogs.com/svg.latex?n_1=n_2=250,\lambda_{1}=1.5,\lambda_{2}=0.5,\mu_{1}=0.03,\mu_{2}=0.01,\gamma_{12}=0.06,\gamma_{21}=0.02" title="n_1=n_2=250,\lambda_{1}=1.5,\lambda_{2}=0.5,\mu_{1}=0.03,\mu_{2}=0.01,\gamma_{12}=0.06,\gamma_{21}=0.02" />
 
     * Non-structured: <img src="https://latex.codecogs.com/svg.latex?n_1=n_2=250,\lambda_{1}=1.5,\lambda_{2}=0.5,\mu_{1}=0.03,\mu_{2}=0.01,\gamma_{12}=0.06,\gamma_{21}=0.02" title="n_1=n_2=250,\lambda_{1}=1.5,\lambda_{2}=0.5,\mu_{1}=0.03,\mu_{2}=0.01,\gamma_{12}=0.06,\gamma_{21}=0.02" />
     
-* Dataset3: Number of trees=1000
+* Dataset3: Number of trees for each subpopulation=1000
     * Structured: <img src="https://latex.codecogs.com/svg.latex?n_1=n_2=100,\lambda_{1}=1.5,\lambda_{2}=0.5,\mu_{1}=0.03,\mu_{2}=0.01,\gamma_{12}=0.06,\gamma_{21}=0.02" title="n_1=n_2=100,\lambda_{1}=1.5,\lambda_{2}=0.5,\mu_{1}=0.03,\mu_{2}=0.01,\gamma_{12}=0.06,\gamma_{21}=0.02" />
 
     * Non-structured: <img src="https://latex.codecogs.com/svg.latex?n_1=n_2=100,\lambda_{1}=1.5,\lambda_{2}=0.5,\mu_{1}=0.03,\mu_{2}=0.01,\gamma_{12}=0.06,\gamma_{21}=0.02" title="n_1=n_2=100,\lambda_{1}=1.5,\lambda_{2}=0.5,\mu_{1}=0.03,\mu_{2}=0.01,\gamma_{12}=0.06,\gamma_{21}=0.02" />
