@@ -1,37 +1,46 @@
 # TreeShape
 Employing phylogenetic tree shape statistics to resolve the underlying host population structure
 
-The structure of this repository is as shown below. Tree statistics generated for three parameter sets are located in three sub-folders of the Data folder. The scripts used for analysis are located in the scripts folder. Data files used for estimating R0 from cherry to tip ratio (CTR) are located in the CTR sub-folder.
+The structure of this repository is as shown below. Tree statistics generated for four parameter sets are located in four sub-folders of the Data folder. The scripts used for analysis are located in the scripts folder. Data files used for estimating R0 from cherry to tip ratio (CTR) are located in the CTR sub-folder.
 
 ```
 TreeShape
-│   README.md  
-│
-└───Data
-│   │___Dataset1
-|   |   |   tree_stats_structured_set1_new.csv
-|   |   |   tree_stats_unstructured_set1_new.csv
+│   README.md 
+|
+|____Data
+│   |___CTR
+|   |   |   str.csv
+|   |   |   unstr.csv
 |   |
-│   │___Dataset2
-|   |   |   tree_stats_structured_set2_new.csv
-|   |   |   tree_stats_unstructured_set2_new.csv
-|   |
-│   │___Dataset3
-|   |   |   tree_stats_structured_set3_new.csv
-|   |   |   tree_stats_unstructured_set3_new.csv
-|   |
-│   └───CTR
-│       │   CTR_structured*.csv
-│       │   CTR_non_structured*.csv
-│   
+│   │___RealData
+|   |   |   subpopn1.csv
+|   |   |   subpopn2.csv
+|   |   |   subpopn1_and_subpopn2.csv
+|   |   
+│   │___SimulatedData
+|       |___Dataset1
+|       |   |   str.csv
+|       |   |   unstr.csv
+|       |___Dataset2
+|       |   |   str.csv
+|       |   |   unstr.csv
+|       |___Dataset3
+|       |   |   str.csv
+|       |   |   unstr.csv
+|       |___Dataset4
+|           |   str.csv
+|           |   unstr.csv
+|           
 └───Scripts
     │   Classification_with_crossvalidation.R
     │   CTR_analysis.R
     │   Komogorov_Smirnov_Test.R
-    │   ROC_CM_classification.R
-    │   tree_simulation.py
-    │   Tree_statistics_boxplots.R    
-    
+    │   str_simulation.py
+    │   unstr_simulation.py
+    │   model_functions.py
+    │   tree_shape_statistics.py
+    │   compute_realdata_statistics.py
+
 ```
 
 
