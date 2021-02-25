@@ -45,22 +45,17 @@ TreeShape
 
 
 ### Simulating trees and estimating tree statistics
-Three sets of data were generated using the `tree_simulation.py` script for three different pairs of parameter sets as specified below;
+The four sets of simulated data were generated using the `str_simulation.py` and `unstr_simulation.py` for structured and unstructured populations respectively.
 
-* Dataset1: Number of trees for each subpopulation=500
-    * Structured: <img src="https://latex.codecogs.com/svg.latex?n_1=n_2=100,\lambda_{1}=1.5,\lambda_{2}=0.5,\mu_{1}=0.03,\mu_{2}=0.01,\gamma_{12}=0.06,\gamma_{21}=0.02" title="n_1=n_2=100,\lambda_{1}=1.5,\lambda_{2}=0.5,\mu_{1}=0.03,\mu_{2}=0.01,\gamma_{12}=0.06,\gamma_{21}=0.02" />
+* Dataset1
 
-    * Non-structured: <img src="https://latex.codecogs.com/svg.latex?n_1=n_2=100,\lambda_{1}=\lambda_{2}=0.5,\mu_{1}=\mu_{2}=0.01,\gamma_{12}=\gamma_{21}=0.02" title="n_1=n_2=100,\lambda_{1}=\lambda_{2}=0.5,\mu_{1}=\mu_{2}=0.01,\gamma_{12}=\gamma_{21}=0.02" />
+### Sensitivity analysis
 
-* Dataset2: Number of trees for each subpopulation=500
-    * Structured: <img src="https://latex.codecogs.com/svg.latex?n_1=n_2=250,\lambda_{1}=1.5,\lambda_{2}=0.5,\mu_{1}=0.03,\mu_{2}=0.01,\gamma_{12}=0.06,\gamma_{21}=0.02" title="n_1=n_2=250,\lambda_{1}=1.5,\lambda_{2}=0.5,\mu_{1}=0.03,\mu_{2}=0.01,\gamma_{12}=0.06,\gamma_{21}=0.02" />
-
-    * Non-structured: <img src="https://latex.codecogs.com/svg.latex?n_1=n_2=250,\lambda_{1}=\lambda_{2}=0.5,\mu_{1}=\mu_{2}=0.01,\gamma_{12}=\gamma_{21}=0.02" title="n_1=n_2=100,\lambda_{1}=\lambda_{2}=0.5,\mu_{1}=\mu_{2}=0.01,\gamma_{12}=\gamma_{21}=0.02" />
+* Dataset2
+      
+* Dataset3
     
-* Dataset3: Number of trees for each subpopulation=1000
-    * Structured: <img src="https://latex.codecogs.com/svg.latex?n_1=n_2=100,\lambda_{1}=1.5,\lambda_{2}=0.5,\mu_{1}=0.03,\mu_{2}=0.01,\gamma_{12}=0.06,\gamma_{21}=0.02" title="n_1=n_2=100,\lambda_{1}=1.5,\lambda_{2}=0.5,\mu_{1}=0.03,\mu_{2}=0.01,\gamma_{12}=0.06,\gamma_{21}=0.02" />
-
-    * Non-structured: <img src="https://latex.codecogs.com/svg.latex?n_1=n_2=100,\lambda_{1}=\lambda_{2}=0.5,\mu_{1}=\mu_{2}=0.01,\gamma_{12}=\gamma_{21}=0.02" title="n_1=n_2=100,\lambda_{1}=\lambda_{2}=0.5,\mu_{1}=\mu_{2}=0.01,\gamma_{12}=\gamma_{21}=0.02" />
+* Dataset4
 
 ### Comparing tree statistics between structured and un-structured populations
 This is done using the `Komogorov_Smirnov_Test.R` script. The input of this script are csv files created by `tree_simulation.py` script. The comparisons are  based on the Kolmogorov–Smirnov test. `Tree_statistics_boxplots.R` script is used to produce boxplots that visualise the distribution of tree statistics between structured and un-structured populations.
@@ -70,5 +65,7 @@ We built ML models that use tree shape statistics mentioned above to classify tr
 
 ### Validation of the simulation procedure using R0 estimates based on cherry to tip ratio
 Takes csv file created by `tree_simulation.py`, computes cherry to tip ratio and finally computes the basic reproductive number as a function of CTR.
+
+## Applying models to real world genomic data
 
 
