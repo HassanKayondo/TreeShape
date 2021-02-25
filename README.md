@@ -68,5 +68,5 @@ The `classification.R` takes as input two csv files created by `unstr_simulation
 The `CTR_analysis.R` script takes a csv file created by either `unstr_simulation.py` or `unstr_simulation.py`, computes cherry to tip ratio and finally computes the basic reproductive number as a function of CTR.
 
 ### Applying models to real world genomic data
-The `compute_realdata_statistics.py` script reads a file containing trees (in newick format, single tree per line) generated from actual sequence data. It outputs a csv file containing values for the eight tree shape statistics for each tree. The script `classify_realdata.R` takes the csv file created by  the `compute_realdata_statistics.py` script. 
+The `compute_realdata_statistics.py` script reads a file containing trees (in newick format, single tree per line) generated from actual sequence data. It outputs a csv file containing values for the eight tree shape statistics for each tree. The script `classify_realdata.R` takes the csv file created by  the `compute_realdata_statistics.py` script and a model object created by `classification.R` script. It reports a matrix showing number of trees classified as either structured or unstructured.  
 
