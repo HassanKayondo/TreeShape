@@ -58,14 +58,14 @@ The four sets of simulated data were generated using the `str_simulation.py` and
 * Dataset4
 
 ### Comparing tree statistics between structured and un-structured populations
-This is done using the `Komogorov_Smirnov_Test.R` script. The input of this script are csv files created by `tree_simulation.py` script. The comparisons are  based on the Kolmogorov–Smirnov test. `Tree_statistics_boxplots.R` script is used to produce boxplots that visualise the distribution of tree statistics between structured and un-structured populations.
+This is done using the `Komogorov_Smirnov_Test.R` script. The input of this script are csv files created by `unstr_simulation.py` and `unstr_simulation.py`. The comparisons are  based on the Kolmogorov–Smirnov test.
 
-### Classiﬁcation of simulated trees as structured or non-structured population based on their tree statistics
-We built ML models that use tree shape statistics mentioned above to classify trees as structured or un-structured. This is done using the `Classification_with_crossvalidation.R` script. The script takes as input csv files created by `tree_simulation.py` script. Majorly, it uses `Caret` package for parameter tuning and model training at 10-fold cross validation. Model performance is assessed using four metrics, that is; accuracy, sensitivity, specificify and area under the receiver operating characteristic curve. `pROC` package was used for ROC analysis. `ROC_CM_classification.R` script is used to produce visualisation of roc-curves and confusion matrices.
+### Classiﬁcation of simulated trees as structured or non-structured based on their tree statistics
+The `Classification_with_crossvalidation.R` takes as input two csv files created by `unstr_simulation.py` or `unstr_simulation.py`. Majorly, it uses `Caret` package for parameter tuning and model training at 10-fold cross validation. Model performance is assessed using four metrics, that is; accuracy, sensitivity, specificify and area under the receiver operating characteristic curve.
 
 ### Validation of the simulation procedure using R0 estimates based on cherry to tip ratio
-Takes csv file created by `tree_simulation.py`, computes cherry to tip ratio and finally computes the basic reproductive number as a function of CTR.
+The `CTR_analysis.R` script takes a csv file created by either `unstr_simulation.py` or `unstr_simulation.py`, computes cherry to tip ratio and finally computes the basic reproductive number as a function of CTR.
 
-## Applying models to real world genomic data
-
+### Applying models to real world genomic data
+The `compute_realdata_statistics.py` script reads a file containing trees (in newick format, single tree per line) generated from actual sequence data. It outputs a csv file containing values for the eight tree shape statistics for each tree. 
 
