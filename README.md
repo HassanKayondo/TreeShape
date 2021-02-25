@@ -32,9 +32,10 @@ TreeShape
 |           |   unstr.csv
 |           
 └───Scripts
-    │   Classification_with_crossvalidation.R
+    │   classification.R
+    |   classify_realdata.R
     │   CTR_analysis.R
-    │   Komogorov_Smirnov_Test.R
+    │   tree_shape_comparisons.R
     │   str_simulation.py
     │   unstr_simulation.py
     │   model_functions.py
@@ -45,7 +46,7 @@ TreeShape
 
 
 ### Simulating trees and estimating tree statistics
-The four sets of simulated data were generated using the `str_simulation.py` and `unstr_simulation.py` for structured and unstructured populations respectively.
+The four sets of simulated data were generated using the `str_simulation.py` and `unstr_simulation.py` for structured and unstructured populations respectively. Models and tree shape statistics are defined in `model_functions.py` and `tree_shape_statistics.py` scripts respectively.  
 
 * Dataset1
 
@@ -58,14 +59,14 @@ The four sets of simulated data were generated using the `str_simulation.py` and
 * Dataset4
 
 ### Comparing tree statistics between structured and un-structured populations
-This is done using the `Komogorov_Smirnov_Test.R` script. The input of this script are csv files created by `unstr_simulation.py` and `unstr_simulation.py`. The comparisons are  based on the Kolmogorov–Smirnov test.
+This is done using the `tree_shape_comparisons.R` script. The input of this script are csv files created by `unstr_simulation.py` and `unstr_simulation.py`. The comparisons are  based on the Kolmogorov–Smirnov test.
 
 ### Classiﬁcation of simulated trees as structured or non-structured based on their tree statistics
-The `Classification_with_crossvalidation.R` takes as input two csv files created by `unstr_simulation.py` or `unstr_simulation.py`. Majorly, it uses `Caret` package for parameter tuning and model training at 10-fold cross validation. Model performance is assessed using four metrics, that is; accuracy, sensitivity, specificify and area under the receiver operating characteristic curve.
+The `classification.R` takes as input two csv files created by `unstr_simulation.py` or `unstr_simulation.py`. Majorly, it uses `Caret` package for parameter tuning and model training at 10-fold cross validation. Model performance is assessed using four metrics, that is; accuracy, sensitivity, specificify and area under the receiver operating characteristic curve.
 
 ### Validation of the simulation procedure using R0 estimates based on cherry to tip ratio
 The `CTR_analysis.R` script takes a csv file created by either `unstr_simulation.py` or `unstr_simulation.py`, computes cherry to tip ratio and finally computes the basic reproductive number as a function of CTR.
 
 ### Applying models to real world genomic data
-The `compute_realdata_statistics.py` script reads a file containing trees (in newick format, single tree per line) generated from actual sequence data. It outputs a csv file containing values for the eight tree shape statistics for each tree. 
+The `compute_realdata_statistics.py` script reads a file containing trees (in newick format, single tree per line) generated from actual sequence data. It outputs a csv file containing values for the eight tree shape statistics for each tree. The script `classify_realdata.R` takes the csv file created by  the `compute_realdata_statistics.py` script. 
 
