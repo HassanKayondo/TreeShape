@@ -19,17 +19,9 @@ TreeShape
 |   |   
 │   │___SimulatedData
 |       |___Dataset1
-|       |   |   str.csv
-|       |   |   unstr.csv
 |       |___Dataset2
-|       |   |   str.csv
-|       |   |   unstr.csv
 |       |___Dataset3
-|       |   |   str.csv
-|       |   |   unstr.csv
 |       |___Dataset4
-|           |   str.csv
-|           |   unstr.csv
 |           
 └───Scripts
     │   classification.R
