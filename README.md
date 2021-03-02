@@ -35,15 +35,15 @@ TreeShape
 ### Simulating trees and estimating tree statistics
 The four sets of simulated data were generated using the `str_simulation.py` and `unstr_simulation.py` for structured and unstructured populations respectively. Models and tree shape statistics are defined in `model_functions.py` and `tree_shape_statistics.py` scripts respectively.  
 
-* Dataset1
+* Dataset1: Baseline parameters and tree size
 
 ### Sensitivity analysis
 
-* Dataset2
+* Dataset2: Varying model parameters while keeping tree size constant
       
-* Dataset3
+* Dataset3: Varying tree size while keeping model parameters constant
     
-* Dataset4
+* Dataset4: Varying both tree size and model parameters
 
 ### Comparing tree statistics between structured and un-structured populations
 This is done using the `tree_shape_comparisons.R` script. The input of this script are csv files created by `str_simulation.py` and `unstr_simulation.py`. The comparisons are  based on the Kolmogorov–Smirnov test.
