@@ -1,7 +1,7 @@
 # TreeShape
 Employing phylogenetic tree shape statistics to resolve the underlying host population structure
 
-The structure of this repository is as shown below. Tree statistics generated for four parameter sets are located in four sub-folders of the Data folder. The scripts used for analysis are located in the scripts folder. Data files used for estimating R0 from cherry to tip ratio (CTR) are located in the CTR sub-folder.
+The structure of this repository is as shown below. Tree statistics generated for four parameter sets are located in four sub-folders of the Data folder. The scripts used for analysis are located in the scripts folder. 
 
 ```
 TreeShape
