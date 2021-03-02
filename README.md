@@ -8,10 +8,6 @@ TreeShape
 │   README.md 
 |
 |____Data
-│   |___CTR
-|   |   |   str.csv
-|   |   |   unstr.csv
-|   |
 │   │___RealData
 |   |   |   subpopn1.csv
 |   |   |   subpopn2.csv
@@ -26,7 +22,6 @@ TreeShape
 └───Scripts
     │   classification.R
     |   classify_realdata.R
-    │   CTR_analysis.R
     │   tree_shape_comparisons.R
     │   str_simulation.py
     │   unstr_simulation.py
